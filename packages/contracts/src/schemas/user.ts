@@ -1,5 +1,5 @@
 import * as z from "zod/v4";
-import { RoleEnum } from "@/packages/contracts/src/enums/enums";
+import { RoleEnum } from "../enums/enums";
 
 export const UserSchema = z.object({
 	id: z.number().int().nonnegative().optional(),

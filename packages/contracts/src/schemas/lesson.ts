@@ -1,8 +1,5 @@
 import * as z from "zod/v4";
-import {
-	LessonStatusEnum,
-	SpecialityEnum,
-} from "@/packages/contracts/src/enums/enums";
+import { LessonStatusEnum, SpecialityEnum } from "../enums/enums";
 
 export const LessonSchema = z
 	.object({

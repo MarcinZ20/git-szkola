@@ -1,5 +1,5 @@
 import * as z from "zod/v4";
-import { SpecialityEnum } from "@/packages/contracts/src/enums/enums";
+import { SpecialityEnum } from "../enums/enums";
 
 export const TeacherSchema = z.object({
 	teacher_id: z.number().int().nonnegative(),

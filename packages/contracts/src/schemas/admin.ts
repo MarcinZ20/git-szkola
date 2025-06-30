@@ -1,5 +1,5 @@
 import * as z from "zod/v4";
-import { AdminlevelEnum } from "@/packages/contracts/src/enums/adminLevel";
+import { AdminlevelEnum } from "../enums/adminLevel";
 
 export const AdminSchema = z.object({
 	adminId: z.number().int().nonnegative(),
