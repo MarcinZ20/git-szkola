@@ -1,4 +1,4 @@
-import { z } from "zod";
+import * as z from "zod/v4";
 import { PhoneNumberValidator } from "@/utils/validators";
 
 export const UserProfileSchema = z.object({
